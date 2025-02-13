@@ -57,7 +57,7 @@ jobs:
       name: 'Development'
     steps:
     
-    #Download the publish files created in previous job
+    #Download the publish files created in previous jobs
     - name: Download artifact from build job
       uses: actions/download-artifact@v4
       with:
