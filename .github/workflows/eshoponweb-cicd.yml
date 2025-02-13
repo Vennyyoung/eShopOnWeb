@@ -3,7 +3,7 @@ name: eShopOnWeb Build and Test
 #Triggers (uncomment line below to use it}
 on: [push, workflow_dispatch]
 
-#Environment variables https://docs.github.com/en/actions/learn-github-actions/env
+#Environment variables https://docs.github.com/en/actions/learn-github-actions/
 env:
   RESOURCE-GROUP: rg-eshoponweb-az-400
   LOCATION: westeurope
